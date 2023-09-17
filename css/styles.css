@@ -1,0 +1,355 @@
+:root {
+    --licorice: rgb(33, 15, 4);
+    --seal-brown: rgb(69, 33, 3);
+    --blood-red: rgb(105, 5, 0);
+    --brown: rgb(147, 75, 0);
+    --tigers-eye: rgb(187, 107, 0);
+    --white: rgb(245, 245, 245);
+    --alt-accentua: rgb(23, 114, 114);
+    --brown-hover-color: rgb(175, 88, 16);
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+ 
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/assests/tiled_background.png);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    background-color: var(--seal-brown);
+    border: 3px solid var(--tigers-eye);
+    max-width: 30vh;
+    margin: 10px auto;
+    text-shadow: 2px 2px 3px black;
+    text-align: center;
+    box-shadow: 2px 2px 1px goldenrod;
+}
+
+h2 {
+    text-shadow: 1px 1px 1px black;
+    background-color: var(--brown);
+    border: 0.15rem solid rgb(0, 0, 0);
+    text-align: center;
+    width: fit-content;
+    padding: 0.75rem;
+    margin: 2vh auto;
+    transition: all 1s;
+}
+
+img {
+    border: solid rgb(153, 82, 0) 0.5rem;
+    margin: 1rem;
+    object-fit: cover;
+}
+
+input {
+    width: 100%;
+}
+
+.baseContainer {
+    padding: 2em;
+    background-color: var(--licorice);
+    color: var(--white);
+    margin: 1% auto;
+    width: 80%;
+    box-shadow: 5px 5px 1px black;
+    border: solid black 2px;
+    min-height: 400px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.5rem;
+    font-style: italic;
+    color: grey;
+}
+
+.Container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 1rem;
+    background-color: var(--seal-brown);
+    color: var(--white);
+    border: solid black 2px;
+    transition: all 0.5s;
+}
+
+.Container:hover {
+    border-color: var(--brown-hover-color);
+}
+
+.ContainerFlex {
+    display: flex;
+    padding: 2rem;
+    background-color: rgb(41, 20, 3);
+    color: var(--white);
+    border: solid rgb(99, 49, 9) 2px;
+    transition: all 1s;
+}
+
+.ContainerFlex:hover {
+    border-color: var(--brown-hover-color);
+}
+
+.containedParagraph {
+    background-color: rgb(41, 20, 3);
+    border: solid 0.3rem rgb(99, 49, 9);
+    padding: 2rem;
+    align-self: start;
+    transition: all 0.5s;
+}
+
+.containedParagraph:hover {
+    border-color: var(--brown-hover-color);
+}
+
+.Container img {
+    justify-self: center;
+}
+
+.navbar {
+    list-style-type: none;
+    border: solid black 2px;
+    background-color: var(--seal-brown);
+    color: whitesmoke;
+    padding: 1rem;
+    transition: border 1s;
+}
+
+.navbar:hover {
+    border-color: var(--brown-hover-color);
+}
+
+.navbar li {
+    border: solid black 2px;
+    background-color: var(--brown);
+    transition: background-color 0.25s ease-in;
+    display: inline;
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.navbar li:hover {
+    background-color: rgb(173, 119, 19);
+    color: black;
+}
+
+.navbar .here {
+    background-color: rgb(23, 114, 114);
+}
+
+
+.slogan {
+    font-family: "Lato", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 5px black;
+    animation: sloganAnimation 120s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes sloganAnimation {
+    0% {color: white;}
+    25% {color: goldenrod;}
+    75% {color: gold;}
+    100% {color: white;}
+    
+}
+
+.hyperbutton {
+    background-color: var(--alt-accentua);
+    border: solid 2px black;
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+    height: 20px;
+    align-self: center;
+    width: fit-content;
+    transition: all 0.5s;
+}
+
+.hyperbutton:hover {
+    background-color: rgb(52, 194, 194);
+}
+
+.hyperbutton:active {
+    background-color: rgb(72, 243, 243);
+}
+
+.PortfolioItem {
+    display: grid;
+    background-color: var(--licorice);
+    padding: 2vh;
+    margin: 2vh;
+    border: solid var(--tigers-eye) 0.2rem;
+    border-radius: 1rem;
+    transition: all 0.5s;
+}
+
+
+.PortfolioItem:hover {
+    background-color: rgb(83, 38, 9);
+    border-color: var(--brown-hover-color);
+}
+
+.PortfolioItem:active {
+    background-color: rgb(119, 83, 15);
+}
+
+
+.PortfolioSubtitle {
+    font-family: Lato;
+    font-size: 1rem;
+    border: solid black 0.15rem;
+    background-color: var(--seal-brown);
+    padding: 1vh;
+    text-align: center;
+    transition: all 1s;
+    border-radius: 1rem;
+}
+
+.PortfolioSubtitle h3 {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.PortfolioSubtitle:hover {
+    background-color: darkgoldenrod;
+    border-color: var(--brown-hover-color);
+    border-radius: 3rem;
+}
+
+.PortfolioImage {
+    border-width: 0.25rem;
+    justify-self: center;
+    height: 25vh;
+    width: 25vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.PortfolioImage:hover {
+    border-color: var(--brown-hover-color);
+}
+
+
+#linkedIn {
+    grid-area: button;
+}
+
+#resume {
+    grid-area: button2;
+}
+
+#about {
+    grid-template-areas: "title title title title"
+    "image image image image"
+    "text text text text"
+    "button button button2 button2"
+    "form form form form";
+}
+
+#about p {
+    grid-area: text;
+}
+
+#about h2 {
+    grid-area: title;
+}
+
+#about img {
+    grid-area: image;
+    justify-self: center;
+    align-self: end;
+    margin: 1rem;
+}
+
+#greeting {
+    user-select: none;
+    font-size: 5vh;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 100%;}
+}
+
+#frontPagePic {
+    width: 40vh;
+    border-color: aliceblue;
+    box-shadow: 0 0 30px white;
+    animation: fadeIn 20s;
+}
+
+#picofme {
+    transition: all 0.5s;
+    width: 40vh;
+}
+
+#picofme:hover {
+    border-color: rgb(214, 114, 0);
+}
+
+#contactMe
+{
+    background-color: rgb(41, 20, 3);
+    border: solid var(--licorice) 0.25rem;
+    grid-area: form;
+    padding: 1rem;
+    margin: 1rem;
+    transition: all 0.5s;
+}
+
+#contactMe:hover {
+    border-color: var(--brown-hover-color);
+}
+
+#contactMe input[type=submit] {
+    width: min-content;
+    justify-self: right;
+}
+
+#Portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+    .slogan {
+        font-size: 3rem;
+    }
+    .navbar li {
+        font-size: 1.5rem;
+    }
+    #about {
+        grid-template-areas: "title title title title"
+        "text text image image"
+        "text text button button2"
+        "form form form form";
+    }
+    #contactMe {
+        margin: 0;
+    }
+}
