@@ -34,3 +34,18 @@ pysql.addEventListener("click", (e) => {
 	console.log(e)
 	window.location.href = "https://github.com/nylaj/filmflixdb";
 })
+
+
+//asteroid link
+const asteroid = document.getElementbyId("Asteroid");
+asteroid.addEventListener("click", (e) => {
+	console.log(e)
+	window.location.href = "https://github.com/nylaj/Spacer";
+})
+
+//COVIDSweeper link
+const covidsweeper = document.getElementbyId("COVIDSweeepr");
+covidsweeper.addEventListener("click", (e) => {
+	console.log(e)
+	window.location.href = "https://github.com/nylaj/COVIDSweeper";
+})
