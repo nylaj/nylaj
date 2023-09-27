@@ -263,11 +263,10 @@ nav {
 }
 
 #about {
-    grid-template-areas: "title title title title"
-    "image image image image"
-    "text text text text"
-    "button button button2 button2"
-    "form form form form";
+    grid-template-areas: "title title title title title"
+    "image image image image image"
+    "text text text text text"
+    "button button button2 button2 email";
 }
 
 #about p {
@@ -315,23 +314,16 @@ nav {
     border-color: rgb(214, 114, 0);
 }
 
-#contactMe
+#email
 {
     background-color: rgb(41, 20, 3);
     border: solid var(--licorice) 0.25rem;
-    grid-area: form;
-    padding: 1rem;
-    margin: 1rem;
+    grid-area: email;
     transition: all 0.5s;
 }
 
-#contactMe:hover {
+#email:hover {
     border-color: var(--brown-hover-color);
-}
-
-#contactMe input[type=submit] {
-    width: min-content;
-    justify-self: right;
 }
 
 #Portfolio {
@@ -351,10 +343,9 @@ nav {
         font-size: 1.5rem;
     }
     #about {
-        grid-template-areas: "title title title title"
-        "text text image image"
-        "text text button button2"
-        "form form form form";
+        grid-template-areas: "title title title title title"
+        "text text image image image"
+        "text text button button2 email";
     }
     #contactMe {
         margin: 0;
