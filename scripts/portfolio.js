@@ -29,8 +29,8 @@ php.addEventListener("click", (e) => {
 })
 
 //filmflix link
-const pysql = document.getElementById("PyQL");
-pysql.addEventListener("click", (e) => {
+const flimflix = document.getElementById("filmflix");
+flimflix.addEventListener("click", (e) => {
 	console.log(e)
 	window.location.href = "https://github.com/nylaj/filmflixdb";
 })
