@@ -29,22 +29,22 @@ php.addEventListener("click", (e) => {
 })
 
 //filmflix link
-const flimflix = document.getElementById("filmflix");
-flimflix.addEventListener("click", (e) => {
+const filmflix = document.getElementById("filmflix");
+filmflix.addEventListener("click", (e) => {
 	console.log(e)
 	window.location.href = "https://github.com/nylaj/filmflixdb";
 })
 
 
 //asteroid link
-const asteroid = document.getElementbyId("Asteroid");
+const asteroid = document.getElementById("Asteroid");
 asteroid.addEventListener("click", (e) => {
 	console.log(e)
 	window.location.href = "https://github.com/nylaj/Spacer";
 })
 
 //COVIDSweeper link
-const covidsweeper = document.getElementbyId("COVIDSweeper");
+const covidsweeper = document.getElementById("COVIDSweeper");
 covidsweeper.addEventListener("click", (e) => {
 	console.log(e)
 	window.location.href = "https://github.com/nylaj/COVIDSweeper";
