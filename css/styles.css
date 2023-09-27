@@ -293,7 +293,7 @@ input {
 }
 
 #frontPagePic {
-    width: 40vh;
+    width: 30vh;
     border-color: aliceblue;
     box-shadow: 0 0 30px white;
     animation: fadeIn 2s;
