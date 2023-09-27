@@ -4,7 +4,7 @@
 const site = document.getElementById("mySite");
 site.addEventListener("click", (e) => {
     console.log(e);
-    window.location.href = "./home.html";
+    window.location.href = "https://github.com/nylaj/nylaj";
 })
 
 //Github

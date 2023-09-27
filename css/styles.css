@@ -296,7 +296,7 @@ input {
     width: 40vh;
     border-color: aliceblue;
     box-shadow: 0 0 30px white;
-    animation: fadeIn 20s;
+    animation: fadeIn 2s;
 }
 
 #picofme {
