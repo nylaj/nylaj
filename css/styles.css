@@ -253,6 +253,12 @@ nav {
     border-color: var(--brown-hover-color);
 }
 
+p em {
+    color: var(--tigers-eye);
+    font-style: normal;
+    font-weight: 900;
+}
+
 
 #linkedIn {
     grid-area: button;
