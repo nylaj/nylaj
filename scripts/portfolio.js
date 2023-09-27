@@ -44,7 +44,7 @@ asteroid.addEventListener("click", (e) => {
 })
 
 //COVIDSweeper link
-const covidsweeper = document.getElementbyId("COVIDSweeepr");
+const covidsweeper = document.getElementbyId("COVIDSweeper");
 covidsweeper.addEventListener("click", (e) => {
 	console.log(e)
 	window.location.href = "https://github.com/nylaj/COVIDSweeper";
